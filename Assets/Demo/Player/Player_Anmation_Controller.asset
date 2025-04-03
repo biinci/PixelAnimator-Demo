@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2447a6f4dad545ba9316870c8fe63c8a, type: 3}
+  m_Name: Player_Anmation_Controller
+  m_EditorClassIdentifier: 
+  animations:
+  - {fileID: 11400000, guid: 4ef033130d8572b44ba4142a427fd993, type: 2}
+  - {fileID: 11400000, guid: 974d2a4e567147d408a14885bc1934f1, type: 2}
+  - {fileID: 11400000, guid: 70435020ff2e62a449fd5c8a30b59def, type: 2}
+  - {fileID: 11400000, guid: d8c8fef7ee76c734d8cd81d719bca527, type: 2}
+  - {fileID: 11400000, guid: 9861f37722b0f6941998f0a0677ac500, type: 2}
+  - {fileID: 11400000, guid: b91d0f5ec5fae9044a05a27abe735a9c, type: 2}
+  - {fileID: 11400000, guid: d86b8d1da450b4048ae19b73db3fdf40, type: 2}

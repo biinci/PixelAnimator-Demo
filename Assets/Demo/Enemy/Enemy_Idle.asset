@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc76e2fa67af4dabbf0f32c4e82debf, type: 3}
+  m_Name: Enemy_Idle
+  m_EditorClassIdentifier: 
+  loop: 1
+  fps: 12
+  pixelSprites:
+  - spriteId: 37ec29a2a869a8d40a7343544195f937
+    sprite: {fileID: -2123320553, guid: 35c108e7834e3b945a2ab0ef43a1d485, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  boxGroups:
+  - boxDataGuid: f4d14d33fae7277459b710e9d1f02fcf
+    collisionTypes: 2
+    boxes:
+    - frames:
+      - guid: 37ec29a2a869a8d40a7343544195f937
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 26
+          y: 12
+          width: 11
+          height: 36
+        enterMethodStorage:
+          rid: 3952229761773208356
+        stayMethodStorage:
+          rid: 3952229761773208357
+        exitMethodStorage:
+          rid: 3952229761773208358
+    isVisible: 1
+    isExpanded: 1
+  - boxDataGuid: 5347a2193fadcc044a8d3905e7373fc5
+    collisionTypes: 1
+    boxes:
+    - frames:
+      - guid: 37ec29a2a869a8d40a7343544195f937
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 26
+          y: 13
+          width: 11
+          height: 35
+        enterMethodStorage:
+          rid: 3952229761773208362
+        stayMethodStorage:
+          rid: 3952229761773208363
+        exitMethodStorage:
+          rid: 3952229761773208364
+    isVisible: 1
+    isExpanded: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 3952229761773208356
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773208357
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773208358
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773208362
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773208363
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773208364
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []

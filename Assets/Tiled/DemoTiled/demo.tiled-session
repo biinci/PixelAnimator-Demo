@@ -1,0 +1,71 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Map.tmx",
+    "expandedProjectPaths": [
+        "Rules",
+        "."
+    ],
+    "fileStates": {
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "BlockShapes.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "Map.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 262.27272727272725,
+                "y": 99.81818181818181
+            }
+        },
+        "Rules/AutoTileRules.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 164.75,
+                "y": 108.5
+            }
+        },
+        "Tiles.tmx": {
+            "scale": 1.0845833333333332,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 228.19823280829812,
+                "y": 184.86361890126778
+            }
+        },
+        "checker.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        }
+    },
+    "last.imagePath": "C:/Users/erkam/Desktop/DemoTiled",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "Map.tmx",
+        "Rules/AutoTileRules.tmx",
+        "BlockShapes.tsx",
+        "checker.tsx"
+    ],
+    "project": "demo.tiled-project",
+    "recentFiles": [
+        "checker.tsx",
+        "BlockShapes.tsx",
+        "Rules/AutoTileRules.tmx",
+        "Map.tmx",
+        "Tiles.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

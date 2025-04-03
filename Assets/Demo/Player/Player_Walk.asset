@@ -1,0 +1,536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc76e2fa67af4dabbf0f32c4e82debf, type: 3}
+  m_Name: Player_Walk
+  m_EditorClassIdentifier: 
+  loop: 1
+  fps: 12
+  pixelSprites:
+  - spriteId: dfbcc4d6664a1d943aa5aa138b482da0
+    sprite: {fileID: -1656949191, guid: 77d8881222126984ebae5886d6c17fb1, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData:
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: AddXVelocityToPlayer
+          parameters:
+          - name: Single
+            assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+            assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          flags: 20
+        parameters:
+        - rid: 8666309378252210388
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: WalkSound
+          parameters: []
+          flags: 20
+        parameters: []
+  - spriteId: 7fd3a2e992b38cd4d996a8d4123b48bf
+    sprite: {fileID: 1396181832, guid: 77d8881222126984ebae5886d6c17fb1, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData:
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: AddXVelocityToPlayer
+          parameters:
+          - name: Single
+            assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+            assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          flags: 20
+        parameters:
+        - rid: 8428581705260990562
+  - spriteId: 940c2e733c5c1d441914c8b6cdb57f4f
+    sprite: {fileID: -1196174182, guid: 77d8881222126984ebae5886d6c17fb1, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData:
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: AddXVelocityToPlayer
+          parameters:
+          - name: Single
+            assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+            assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          flags: 20
+        parameters:
+        - rid: 8428581705260990563
+  - spriteId: 0a3cd37e4d2e9cf4bb7341d796c605fd
+    sprite: {fileID: -1709252026, guid: 77d8881222126984ebae5886d6c17fb1, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData:
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: AddXVelocityToPlayer
+          parameters:
+          - name: Single
+            assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+            assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          flags: 20
+        parameters:
+        - rid: 8666308954052362311
+  - spriteId: f9040a14794dffb4c9e27fbd11516a94
+    sprite: {fileID: -155940699, guid: 77d8881222126984ebae5886d6c17fb1, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData:
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: AddXVelocityToPlayer
+          parameters:
+          - name: Single
+            assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+            assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          flags: 20
+        parameters:
+        - rid: 8428581705260990565
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: WalkSound
+          parameters: []
+          flags: 20
+        parameters: []
+  - spriteId: e9d4e84b45e64924099507207fa2a007
+    sprite: {fileID: -617715029, guid: 77d8881222126984ebae5886d6c17fb1, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData:
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: AddXVelocityToPlayer
+          parameters:
+          - name: Single
+            assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+            assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          flags: 20
+        parameters:
+        - rid: 8428581705260990566
+  - spriteId: ae1e4dc701ac10d43ad99fe37e627802
+    sprite: {fileID: -2093440426, guid: 77d8881222126984ebae5886d6c17fb1, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData:
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: AddXVelocityToPlayer
+          parameters:
+          - name: Single
+            assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+            assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          flags: 20
+        parameters:
+        - rid: 8428581705260990566
+  - spriteId: 8923662ad38b2a446a3204b82c915699
+    sprite: {fileID: 759537271, guid: 77d8881222126984ebae5886d6c17fb1, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData:
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: AddXVelocityToPlayer
+          parameters:
+          - name: Single
+            assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+            assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          flags: 20
+        parameters:
+        - rid: 8428581705260990566
+  boxGroups:
+  - boxDataGuid: 5347a2193fadcc044a8d3905e7373fc5
+    collisionTypes: 1
+    boxes:
+    - frames:
+      - guid: dfbcc4d6664a1d943aa5aa138b482da0
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 29
+          y: 14
+          width: 7
+          height: 34
+        enterMethodStorage:
+          rid: 8666309106265751648
+        stayMethodStorage:
+          rid: 8666309106265751649
+        exitMethodStorage:
+          rid: 8666309106265751650
+      - guid: 7fd3a2e992b38cd4d996a8d4123b48bf
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 28
+          y: 12
+          width: 8
+          height: 36
+        enterMethodStorage:
+          rid: 8666309106265751651
+        stayMethodStorage:
+          rid: 8666309106265751652
+        exitMethodStorage:
+          rid: 8666309106265751653
+      - guid: 940c2e733c5c1d441914c8b6cdb57f4f
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 27
+          y: 12
+          width: 8
+          height: 36
+        enterMethodStorage:
+          rid: 8666309106265751654
+        stayMethodStorage:
+          rid: 8666309106265751655
+        exitMethodStorage:
+          rid: 8666309106265751656
+      - guid: 0a3cd37e4d2e9cf4bb7341d796c605fd
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 29
+          y: 13
+          width: 7
+          height: 35
+        enterMethodStorage:
+          rid: 8666309106265751657
+        stayMethodStorage:
+          rid: 8666309106265751658
+        exitMethodStorage:
+          rid: 8666309106265751659
+      - guid: f9040a14794dffb4c9e27fbd11516a94
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 28
+          y: 12
+          width: 9
+          height: 36
+        enterMethodStorage:
+          rid: 8666309106265751660
+        stayMethodStorage:
+          rid: 8666309106265751661
+        exitMethodStorage:
+          rid: 8666309106265751662
+      - guid: e9d4e84b45e64924099507207fa2a007
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 28
+          y: 14
+          width: 9
+          height: 34
+        enterMethodStorage:
+          rid: 8666309106265751663
+        stayMethodStorage:
+          rid: 8666309106265751664
+        exitMethodStorage:
+          rid: 8666309106265751665
+      - guid: ae1e4dc701ac10d43ad99fe37e627802
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 29
+          y: 12
+          width: 7
+          height: 36
+        enterMethodStorage:
+          rid: 8666309106265751666
+        stayMethodStorage:
+          rid: 8666309106265751667
+        exitMethodStorage:
+          rid: 8666309106265751668
+      - guid: 8923662ad38b2a446a3204b82c915699
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 27
+          y: 13
+          width: 10
+          height: 35
+        enterMethodStorage:
+          rid: 8666309106265751669
+        stayMethodStorage:
+          rid: 8666309106265751670
+        exitMethodStorage:
+          rid: 8666309106265751671
+    isVisible: 1
+    isExpanded: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 8428581705260990562
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 0.5
+    - rid: 8428581705260990563
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 0.9
+    - rid: 8428581705260990565
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 0.3
+    - rid: 8428581705260990566
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 0.7
+    - rid: 8666308954052362311
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 0.9
+    - rid: 8666309106265751648
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData:
+        - componentType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          method:
+            serializableType:
+              name: PlayerController
+              assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+                Culture=neutral, PublicKeyToken=null
+              assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            methodName: Enter
+            parameters:
+            - name: Collision2D
+              assemblyQualifiedName: UnityEngine.Collision2D, UnityEngine.Physics2DModule,
+                Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              assemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+                PublicKeyToken=null
+            flags: 20
+          parameters:
+          - rid: 8666309494873260477
+    - rid: 8666309106265751649
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751650
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751651
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751652
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751653
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751654
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751655
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751656
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751657
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751658
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751659
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751660
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751661
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751662
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751663
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751664
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751665
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751666
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751667
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751668
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751669
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751670
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309106265751671
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210388
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 0.3
+    - rid: 8666309494873260477
+      type: {class: 'SerializableData`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 

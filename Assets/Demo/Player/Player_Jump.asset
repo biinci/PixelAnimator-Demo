@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc76e2fa67af4dabbf0f32c4e82debf, type: 3}
+  m_Name: Player_Jump
+  m_EditorClassIdentifier: 
+  loop: 0
+  fps: 12
+  pixelSprites:
+  - spriteId: 7bc4c73009bb53c43b99ec0766997de3
+    sprite: {fileID: -8731159395316090074, guid: 46a17ca734960c149bb00c262bbd6b16, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData:
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: Jump
+          parameters:
+          - name: Single
+            assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+            assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          flags: 20
+        parameters:
+        - rid: 8666309378252210582
+      - componentType:
+          name: PlayerController
+          assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        method:
+          serializableType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          methodName: PlayParticleByVelocity
+          parameters:
+          - name: MinMaxCurve
+            assemblyQualifiedName: UnityEngine.ParticleSystem+MinMaxCurve, UnityEngine.ParticleSystemModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            assemblyName: UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          - name: MinMaxCurve
+            assemblyQualifiedName: UnityEngine.ParticleSystem+MinMaxCurve, UnityEngine.ParticleSystemModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            assemblyName: UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          flags: 20
+        parameters:
+        - rid: 8666309513847242861
+        - rid: 8666309513847242862
+  - spriteId: a8098affa07fe25408dba25cd2e47df2
+    sprite: {fileID: 8383541921607101392, guid: 46a17ca734960c149bb00c262bbd6b16, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  - spriteId: 20b9cbb3a8b8f694297a8ff66a955bb5
+    sprite: {fileID: 8543860672452730938, guid: 46a17ca734960c149bb00c262bbd6b16, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  boxGroups:
+  - boxDataGuid: 5347a2193fadcc044a8d3905e7373fc5
+    collisionTypes: 1
+    boxes:
+    - frames:
+      - guid: 7bc4c73009bb53c43b99ec0766997de3
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 28
+          y: 11
+          width: 9
+          height: 37
+        enterMethodStorage:
+          rid: 8666309378252210444
+        stayMethodStorage:
+          rid: 8666309378252210445
+        exitMethodStorage:
+          rid: 8666309378252210446
+      - guid: a8098affa07fe25408dba25cd2e47df2
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 8666309378252210447
+        stayMethodStorage:
+          rid: 8666309378252210448
+        exitMethodStorage:
+          rid: 8666309378252210449
+      - guid: 20b9cbb3a8b8f694297a8ff66a955bb5
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 8666309378252210450
+        stayMethodStorage:
+          rid: 8666309378252210451
+        exitMethodStorage:
+          rid: 8666309378252210452
+    isVisible: 1
+    isExpanded: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 8666309378252210444
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210445
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210446
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210447
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210448
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210449
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210450
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210451
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210452
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309378252210582
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 3
+    - rid: 8666309513847242861
+      type: {class: 'SerializableData`1[[UnityEngine.ParticleSystem/MinMaxCurve, UnityEngine.ParticleSystemModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data:
+          m_Mode: 1
+          m_CurveMultiplier: 1
+          m_CurveMin:
+            serializedVersion: 2
+            m_Curve: []
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          m_CurveMax:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          m_ConstantMin: 0
+          m_ConstantMax: 0
+    - rid: 8666309513847242862
+      type: {class: 'SerializableData`1[[UnityEngine.ParticleSystem/MinMaxCurve, UnityEngine.ParticleSystemModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data:
+          m_Mode: 1
+          m_CurveMultiplier: 1
+          m_CurveMin:
+            serializedVersion: 2
+            m_Curve: []
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          m_CurveMax:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0.3
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0.3
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          m_ConstantMin: 0
+          m_ConstantMax: 0

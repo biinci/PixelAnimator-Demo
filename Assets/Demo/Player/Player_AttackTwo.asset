@@ -1,0 +1,737 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc76e2fa67af4dabbf0f32c4e82debf, type: 3}
+  m_Name: Player_AttackTwo
+  m_EditorClassIdentifier: 
+  loop: 0
+  fps: 12
+  pixelSprites:
+  - spriteId: 754122b39a1cd744f8cf7ba048c7d077
+    sprite: {fileID: 818843183596825814, guid: f47a146bed4b2fd4a8addae9a84a69e6, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  - spriteId: cae1b402d624cd245ab5d6506e9b0c9d
+    sprite: {fileID: -3073094307018227059, guid: f47a146bed4b2fd4a8addae9a84a69e6, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  - spriteId: fce6403d7f4914f45b6dbeb3ea81c215
+    sprite: {fileID: 8640806603364509413, guid: f47a146bed4b2fd4a8addae9a84a69e6, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  - spriteId: eec9b01043331fd408e5364cd4315fd3
+    sprite: {fileID: -4148435848252537300, guid: f47a146bed4b2fd4a8addae9a84a69e6, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  - spriteId: 876913fb05528d745b4d19f886e6d9b4
+    sprite: {fileID: -3644178762548376688, guid: f47a146bed4b2fd4a8addae9a84a69e6, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  - spriteId: c02d78b804fd18c49af83c73afe8cd03
+    sprite: {fileID: 4102468934196036119, guid: f47a146bed4b2fd4a8addae9a84a69e6, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  - spriteId: bea07d5cbc3c185409ab2c867a41b416
+    sprite: {fileID: 1350091471148665160, guid: f47a146bed4b2fd4a8addae9a84a69e6, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  boxGroups:
+  - boxDataGuid: 5347a2193fadcc044a8d3905e7373fc5
+    collisionTypes: 1
+    boxes:
+    - frames:
+      - guid: 754122b39a1cd744f8cf7ba048c7d077
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 28
+          y: 15
+          width: 9
+          height: 33
+        enterMethodStorage:
+          rid: 3952229761773207643
+        stayMethodStorage:
+          rid: 3952229761773207644
+        exitMethodStorage:
+          rid: 3952229761773207645
+      - guid: cae1b402d624cd245ab5d6506e9b0c9d
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229761773207646
+        stayMethodStorage:
+          rid: 3952229761773207647
+        exitMethodStorage:
+          rid: 3952229761773207648
+      - guid: fce6403d7f4914f45b6dbeb3ea81c215
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 24
+          y: 16
+          width: 11
+          height: 32
+        enterMethodStorage:
+          rid: 3952229761773207649
+        stayMethodStorage:
+          rid: 3952229761773207650
+        exitMethodStorage:
+          rid: 3952229761773207651
+      - guid: eec9b01043331fd408e5364cd4315fd3
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229761773207652
+        stayMethodStorage:
+          rid: 3952229761773207653
+        exitMethodStorage:
+          rid: 3952229761773207654
+      - guid: 876913fb05528d745b4d19f886e6d9b4
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 28
+          y: 21
+          width: 11
+          height: 27
+        enterMethodStorage:
+          rid: 3952229761773207655
+        stayMethodStorage:
+          rid: 3952229761773207656
+        exitMethodStorage:
+          rid: 3952229761773207657
+      - guid: c02d78b804fd18c49af83c73afe8cd03
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 28
+          y: 24
+          width: 13
+          height: 24
+        enterMethodStorage:
+          rid: 3952229761773207658
+        stayMethodStorage:
+          rid: 3952229761773207659
+        exitMethodStorage:
+          rid: 3952229761773207660
+      - guid: bea07d5cbc3c185409ab2c867a41b416
+        type: 1
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229761773207661
+        stayMethodStorage:
+          rid: 3952229761773207662
+        exitMethodStorage:
+          rid: 3952229761773207663
+    isVisible: 1
+    isExpanded: 1
+  - boxDataGuid: 4fd42eaf973b8d14ebf04c235720314c
+    collisionTypes: 2
+    boxes:
+    - frames:
+      - guid: 754122b39a1cd744f8cf7ba048c7d077
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631369
+        stayMethodStorage:
+          rid: 3952229783708631370
+        exitMethodStorage:
+          rid: 3952229783708631371
+      - guid: cae1b402d624cd245ab5d6506e9b0c9d
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631372
+        stayMethodStorage:
+          rid: 3952229783708631373
+        exitMethodStorage:
+          rid: 3952229783708631374
+      - guid: fce6403d7f4914f45b6dbeb3ea81c215
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631375
+        stayMethodStorage:
+          rid: 3952229783708631376
+        exitMethodStorage:
+          rid: 3952229783708631377
+      - guid: eec9b01043331fd408e5364cd4315fd3
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631378
+        stayMethodStorage:
+          rid: 3952229783708631379
+        exitMethodStorage:
+          rid: 3952229783708631380
+      - guid: 876913fb05528d745b4d19f886e6d9b4
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 37
+          y: 9
+          width: 16
+          height: 6
+        enterMethodStorage:
+          rid: 3952229783708631381
+        stayMethodStorage:
+          rid: 3952229783708631382
+        exitMethodStorage:
+          rid: 3952229783708631383
+      - guid: c02d78b804fd18c49af83c73afe8cd03
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 50
+          y: 32
+          width: 10
+          height: 14
+        enterMethodStorage:
+          rid: 3952229783708631384
+        stayMethodStorage:
+          rid: 3952229783708631385
+        exitMethodStorage:
+          rid: 3952229783708631386
+      - guid: bea07d5cbc3c185409ab2c867a41b416
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631387
+        stayMethodStorage:
+          rid: 3952229783708631388
+        exitMethodStorage:
+          rid: 3952229783708631389
+    - frames:
+      - guid: 754122b39a1cd744f8cf7ba048c7d077
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631390
+        stayMethodStorage:
+          rid: 3952229783708631391
+        exitMethodStorage:
+          rid: 3952229783708631392
+      - guid: cae1b402d624cd245ab5d6506e9b0c9d
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631393
+        stayMethodStorage:
+          rid: 3952229783708631394
+        exitMethodStorage:
+          rid: 3952229783708631395
+      - guid: fce6403d7f4914f45b6dbeb3ea81c215
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631396
+        stayMethodStorage:
+          rid: 3952229783708631397
+        exitMethodStorage:
+          rid: 3952229783708631398
+      - guid: eec9b01043331fd408e5364cd4315fd3
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631399
+        stayMethodStorage:
+          rid: 3952229783708631400
+        exitMethodStorage:
+          rid: 3952229783708631401
+      - guid: 876913fb05528d745b4d19f886e6d9b4
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 49
+          y: 14
+          width: 12
+          height: 30
+        enterMethodStorage:
+          rid: 3952229783708631402
+        stayMethodStorage:
+          rid: 3952229783708631403
+        exitMethodStorage:
+          rid: 3952229783708631404
+      - guid: c02d78b804fd18c49af83c73afe8cd03
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631405
+        stayMethodStorage:
+          rid: 3952229783708631406
+        exitMethodStorage:
+          rid: 3952229783708631407
+      - guid: bea07d5cbc3c185409ab2c867a41b416
+        type: 2
+        boxRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 16
+          height: 16
+        enterMethodStorage:
+          rid: 3952229783708631408
+        stayMethodStorage:
+          rid: 3952229783708631409
+        exitMethodStorage:
+          rid: 3952229783708631410
+    isVisible: 1
+    isExpanded: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 3952229761773207643
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207644
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207645
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207646
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207647
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207648
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207649
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207650
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207651
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207652
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207653
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207654
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207655
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207656
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207657
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207658
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207659
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207660
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207661
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207662
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229761773207663
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631369
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631370
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631371
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631372
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631373
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631374
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631375
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631376
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631377
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631378
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631379
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631380
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631381
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData:
+        - componentType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          method:
+            serializableType:
+              name: PlayerController
+              assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+                Culture=neutral, PublicKeyToken=null
+              assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            methodName: Attack
+            parameters:
+            - name: Collider2D
+              assemblyQualifiedName: UnityEngine.Collider2D, UnityEngine.Physics2DModule,
+                Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              assemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+                PublicKeyToken=null
+            - name: Single
+              assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+                PublicKeyToken=b77a5c561934e089
+              assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+            flags: 20
+          parameters:
+          - rid: 3952229783708631419
+          - rid: 3952229783708631420
+    - rid: 3952229783708631382
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631383
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631384
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData:
+        - componentType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          method:
+            serializableType:
+              name: PlayerController
+              assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+                Culture=neutral, PublicKeyToken=null
+              assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            methodName: Attack
+            parameters:
+            - name: Collider2D
+              assemblyQualifiedName: UnityEngine.Collider2D, UnityEngine.Physics2DModule,
+                Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              assemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+                PublicKeyToken=null
+            - name: Single
+              assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+                PublicKeyToken=b77a5c561934e089
+              assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+            flags: 20
+          parameters:
+          - rid: 3952229783708631415
+          - rid: 3952229783708631416
+    - rid: 3952229783708631385
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631386
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631387
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631388
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631389
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631390
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631391
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631392
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631393
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631394
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631395
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631396
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631397
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631398
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631399
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631400
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631401
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631402
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData:
+        - componentType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          method:
+            serializableType:
+              name: PlayerController
+              assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+                Culture=neutral, PublicKeyToken=null
+              assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            methodName: Attack
+            parameters:
+            - name: Collider2D
+              assemblyQualifiedName: UnityEngine.Collider2D, UnityEngine.Physics2DModule,
+                Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              assemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+                PublicKeyToken=null
+            - name: Single
+              assemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+                PublicKeyToken=b77a5c561934e089
+              assemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+            flags: 20
+          parameters:
+          - rid: 3952229783708631417
+          - rid: 3952229783708631418
+    - rid: 3952229783708631403
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631404
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631405
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631406
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631407
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631408
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631409
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631410
+      type: {class: 'MethodStorage`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 3952229783708631415
+      type: {class: 'SerializableData`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: {fileID: 0}
+    - rid: 3952229783708631416
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 0
+    - rid: 3952229783708631417
+      type: {class: 'SerializableData`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: {fileID: 0}
+    - rid: 3952229783708631418
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 0
+    - rid: 3952229783708631419
+      type: {class: 'SerializableData`1[[UnityEngine.Collider2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: {fileID: 0}
+    - rid: 3952229783708631420
+      type: {class: 'SerializableData`1[[System.Single, mscorlib]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
+        data: 0

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc76e2fa67af4dabbf0f32c4e82debf, type: 3}
+  m_Name: Player_Idle
+  m_EditorClassIdentifier: 
+  loop: 1
+  fps: 12
+  pixelSprites:
+  - spriteId: dec3a916c20b7a946b413c5c86fcce3f
+    sprite: {fileID: -2123320553, guid: 35c108e7834e3b945a2ab0ef43a1d485, type: 3}
+    methodStorage:
+      methods:
+        m_PersistentCalls:
+          m_Calls: []
+      methodData: []
+  boxGroups:
+  - boxDataGuid: 5347a2193fadcc044a8d3905e7373fc5
+    collisionTypes: 1
+    boxes:
+    - frames:
+      - guid: dec3a916c20b7a946b413c5c86fcce3f
+        type: 0
+        boxRect:
+          serializedVersion: 2
+          x: 28
+          y: 13
+          width: 8
+          height: 35
+        enterMethodStorage:
+          rid: 8666309377418854513
+        stayMethodStorage:
+          rid: 8666309377418854514
+        exitMethodStorage:
+          rid: 8666309377418854515
+    isVisible: 1
+    isExpanded: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 8666309377418854513
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData:
+        - componentType:
+            name: PlayerController
+            assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          method:
+            serializableType:
+              name: PlayerController
+              assemblyQualifiedName: PlayerController, Assembly-CSharp, Version=0.0.0.0,
+                Culture=neutral, PublicKeyToken=null
+              assemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            methodName: Enter
+            parameters:
+            - name: Collision2D
+              assemblyQualifiedName: UnityEngine.Collision2D, UnityEngine.Physics2DModule,
+                Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              assemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+                PublicKeyToken=null
+            flags: 20
+          parameters:
+          - rid: 8666309495349051560
+    - rid: 8666309377418854514
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309377418854515
+      type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        methodData: []
+    - rid: 8666309495349051560
+      type: {class: 'SerializableData`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
+      data:
+        name: 
