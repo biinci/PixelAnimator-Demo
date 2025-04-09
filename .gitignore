@@ -76,3 +76,9 @@ crashlytics-build.properties
 .vscode/extensions.json
 .vscode/launch.json
 .vscode/settings.json
+
+# JetBrains Rider
+.idea/
+*.sln
+*.csproj
+
