@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "com.binc.pixel-animator": "file:C:/Users/erkam/Documents/GitHub/PixelAnimator",
-    "com.seanba.super-tiled2unity": "file:C:/Users/erkam/Downloads/com.seanba.super-tiled2unity",
+    "com.binc.pixel-animator": "https://github.com/biinci/PixelAnimator.git",
     "com.unity.collab-proxy": "2.6.0",
     "com.unity.feature.2d": "2.0.0",
     "com.unity.ide.rider": "3.0.28",

@@ -335,7 +335,7 @@ MonoBehaviour:
         exitMethodStorage:
           rid: 8666309378252210315
       - guid: 5f068a5fdf1209948b240c9e5c0f6ec5
-        type: 0
+        type: 1
         boxRect:
           serializedVersion: 2
           x: 31
@@ -349,7 +349,7 @@ MonoBehaviour:
         exitMethodStorage:
           rid: 8666309378252210318
       - guid: 8498fd2bd32ebe549b832b7d21289e62
-        type: 0
+        type: 1
         boxRect:
           serializedVersion: 2
           x: 31
@@ -363,7 +363,7 @@ MonoBehaviour:
         exitMethodStorage:
           rid: 8666309378252210321
       - guid: 8b91bd287ec2628408ad6d4f75dc2650
-        type: 0
+        type: 1
         boxRect:
           serializedVersion: 2
           x: 31
@@ -377,7 +377,7 @@ MonoBehaviour:
         exitMethodStorage:
           rid: 8666309378252210324
       - guid: 3c1b10d146a5c7848991456e9c6d207f
-        type: 0
+        type: 1
         boxRect:
           serializedVersion: 2
           x: 29
@@ -391,7 +391,7 @@ MonoBehaviour:
         exitMethodStorage:
           rid: 8666309378252210327
       - guid: 65fc4ae82778a1b4f950792223cb6450
-        type: 0
+        type: 1
         boxRect:
           serializedVersion: 2
           x: 29
@@ -405,7 +405,7 @@ MonoBehaviour:
         exitMethodStorage:
           rid: 8666309378252210330
       - guid: 1085421446d915f45ad65532c41c036e
-        type: 0
+        type: 1
         boxRect:
           serializedVersion: 2
           x: 30
@@ -419,7 +419,7 @@ MonoBehaviour:
         exitMethodStorage:
           rid: 8666309378252210333
       - guid: 875e1f12c5dc87f4e8056c0a26597e8f
-        type: 0
+        type: 1
         boxRect:
           serializedVersion: 2
           x: 28

@@ -1,15 +1,16 @@
 {
   "dependencies": {
     "com.binc.pixel-animator": {
-      "version": "file:C:/Users/erkam/Documents/GitHub/PixelAnimator",
+      "version": "https://github.com/biinci/PixelAnimator.git",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "46d185f5a54e880e4259a164c0edd6fb6d76c311"
     },
     "com.seanba.super-tiled2unity": {
-      "version": "file:C:/Users/erkam/Downloads/com.seanba.super-tiled2unity",
+      "version": "file:com.seanba.super-tiled2unity",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.2d.tilemap": "1.0.0",

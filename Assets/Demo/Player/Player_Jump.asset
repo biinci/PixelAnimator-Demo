@@ -97,11 +97,11 @@ MonoBehaviour:
           width: 9
           height: 37
         enterMethodStorage:
-          rid: 8666309378252210444
+          rid: 3952229884738142285
         stayMethodStorage:
-          rid: 8666309378252210445
+          rid: 3952229884738142286
         exitMethodStorage:
-          rid: 8666309378252210446
+          rid: 3952229884738142287
       - guid: a8098affa07fe25408dba25cd2e47df2
         type: 1
         boxRect:
@@ -111,11 +111,11 @@ MonoBehaviour:
           width: 16
           height: 16
         enterMethodStorage:
-          rid: 8666309378252210447
+          rid: 3952229884738142288
         stayMethodStorage:
-          rid: 8666309378252210448
+          rid: 3952229884738142289
         exitMethodStorage:
-          rid: 8666309378252210449
+          rid: 3952229884738142290
       - guid: 20b9cbb3a8b8f694297a8ff66a955bb5
         type: 1
         boxRect:
@@ -125,49 +125,49 @@ MonoBehaviour:
           width: 16
           height: 16
         enterMethodStorage:
-          rid: 8666309378252210450
+          rid: 3952229884738142291
         stayMethodStorage:
-          rid: 8666309378252210451
+          rid: 3952229884738142292
         exitMethodStorage:
-          rid: 8666309378252210452
+          rid: 3952229884738142293
     isVisible: 1
     isExpanded: 1
   references:
     version: 2
     RefIds:
-    - rid: 8666309378252210444
+    - rid: 3952229884738142285
       type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
       data:
         methodData: []
-    - rid: 8666309378252210445
+    - rid: 3952229884738142286
       type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
       data:
         methodData: []
-    - rid: 8666309378252210446
+    - rid: 3952229884738142287
       type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
       data:
         methodData: []
-    - rid: 8666309378252210447
+    - rid: 3952229884738142288
       type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
       data:
         methodData: []
-    - rid: 8666309378252210448
+    - rid: 3952229884738142289
       type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
       data:
         methodData: []
-    - rid: 8666309378252210449
+    - rid: 3952229884738142290
       type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
       data:
         methodData: []
-    - rid: 8666309378252210450
+    - rid: 3952229884738142291
       type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
       data:
         methodData: []
-    - rid: 8666309378252210451
+    - rid: 3952229884738142292
       type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
       data:
         methodData: []
-    - rid: 8666309378252210452
+    - rid: 3952229884738142293
       type: {class: 'MethodStorage`1[[UnityEngine.Collision2D, UnityEngine.Physics2DModule]]', ns: binc.PixelAnimator.DataManipulations, asm: Unity.PixelAnimator}
       data:
         methodData: []
