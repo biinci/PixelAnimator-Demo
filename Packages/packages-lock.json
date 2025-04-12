@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "46d185f5a54e880e4259a164c0edd6fb6d76c311"
+      "hash": "ae12085ab5e8ac6efdb6cc7f297a19a8c01588b3"
     },
     "com.seanba.super-tiled2unity": {
       "version": "file:com.seanba.super-tiled2unity",
