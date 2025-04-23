@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Player_Walk
   m_EditorClassIdentifier: 
   loop: 1
-  fps: 12
+  fps: 6
   pixelSprites:
   - spriteId: dfbcc4d6664a1d943aa5aa138b482da0
     sprite: {fileID: -1656949191, guid: 77d8881222126984ebae5886d6c17fb1, type: 3}
